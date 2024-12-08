@@ -80,7 +80,7 @@ características clave.
 
 
 # Ruta del archivo Excel
-archivo = r'C:\Users\B Josue AS\Documents\Universidad\Estadistica\Regresion Lineal\Trabajo Final\Datos 5.7.xlsx'
+archivo = "Datos 5.7.xlsx"
 
 # Cargar el archivo Excel en un DataFrame
 df = pd.read_excel(archivo)
