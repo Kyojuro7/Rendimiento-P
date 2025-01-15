@@ -8,13 +8,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Predicción de Rendimiento en Benchmark", page_icon=":computer:", layout="wide")
 
 # Título y descripción
-#st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
-# Título con imagen
-col1, col2 = st.columns([8, 1])  # Divide en columnas para alinear imagen y texto
-with col2:
-    st.image("https://github.com/Kyojuro7/Rendimiento-P/blob/2dc6824b2e6e4145dd27e21f9c61f4e104df8233/porcest.png?raw=true", width=500)
-with col1:
-    st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
+st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
 
 st.write("""
 Bienvenido a nuestra aplicación de predicción de rendimiento en benchmark de procesadores. 
@@ -129,3 +123,5 @@ with col2:
 #x=[1950.00828555 4523.47415509  152.29562929  313.27218355]
 #-42132.436579897505
 #y=-42132.4365+1950.0082*x
+
+st.write("Ten en cuenta que los datos que ingreses en esta herramienta serán almacenados de manera segura para su análisis y mejora continua del modelo predictivo. Nos aseguramos de que la información se gestione respetando la privacidad y confidencialidad de los usuarios, utilizándola exclusivamente con fines de investigación y optimización. Si tienes alguna inquietud respecto al manejo de tus datos, no dudes en contactarnos.")
