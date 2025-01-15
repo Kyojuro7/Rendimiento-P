@@ -10,10 +10,10 @@ st.set_page_config(page_title="Predicción de Rendimiento en Benchmark", page_ic
 # Título y descripción
 #st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
 # Título con imagen
-col1, col2 = st.columns([1, 8])  # Divide en columnas para alinear imagen y texto
-with col1:
-    st.image("https://github.com/Kyojuro7/Rendimiento-P/blob/2dc6824b2e6e4145dd27e21f9c61f4e104df8233/porcest.png?raw=true", width=200)
+col1, col2 = st.columns([8, 1])  # Divide en columnas para alinear imagen y texto
 with col2:
+    st.image("https://github.com/Kyojuro7/Rendimiento-P/blob/2dc6824b2e6e4145dd27e21f9c61f4e104df8233/porcest.png?raw=true", width=500)
+with col1:
     st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
 
 st.write("""
