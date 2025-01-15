@@ -14,11 +14,15 @@ st.write("""
 Bienvenido a nuestra aplicación de predicción de rendimiento en benchmark de procesadores. 
 ¿Alguna vez te has preguntado qué tan bien podría funcionar tu procesador en tareas exigentes como videojuegos, edición de video o simulaciones? 
 
-Con esta herramienta, puedes predecir el rendimiento de tu procesador basándote en sus componentes principales de este.
+Con esta herramienta, puedes predecir el rendimiento de tu procesador basándote en sus componentes principales. Las predicciones se realizan mediante
+un modelo de regresión lineal entrenado con datos de más de 50 procesadores diferentes evaluados en benchmarks según sus características. 
+Para construir este modelo, se consideró una amplia gama de características de los procesadores; sin embargo, el análisis estadístico reveló 
+que la frecuencia, la temperatura, la caché L3 y la cantidad de núcleos son, con diferencia, los factores más determinantes para predecir el rendimiento. 
+Esta herramienta te permitirá obtener estimaciones precisas y comparativas para tomar decisiones informadas.
 
 ### ¿Cómo funciona?
 1. **Ingresa los detalles de tu procesador**: Completa la información de los componentes de tu procesador.
-2. **Predicción del rendimiento**: Nuestra aplicación utilizará los datos ingresados para predecir el rendimiento de tu procesador en benchmarks típicos mediante un modelo de regresion lineal.
+2. **Predicción del rendimiento**: Nuestra aplicación utilizará los datos ingresados para predecir el rendimiento de tu procesador en benchmarks típicos.
 3. **Resultados y recomendaciones**: Obtén una estimación sobre el rendimiento de tu procesador.
 
 **¡Comienza ahora!** Ingresa los detalles de tu procesador para ver cómo se desempeñaría en pruebas de benchmark.
