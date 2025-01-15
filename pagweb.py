@@ -8,7 +8,13 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Predicción de Rendimiento en Benchmark", page_icon=":computer:", layout="wide")
 
 # Título y descripción
-st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
+#st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
+# Título con imagen
+col1, col2 = st.columns([1, 8])  # Divide en columnas para alinear imagen y texto
+with col1:
+    st.image("https://github.com/Kyojuro7/Rendimiento-P/blob/2dc6824b2e6e4145dd27e21f9c61f4e104df8233/porcest.png?raw=true", width=50)
+with col2:
+    st.title("Predicción de Rendimiento en Benchmark de tu Procesador")
 
 st.write("""
 Bienvenido a nuestra aplicación de predicción de rendimiento en benchmark de procesadores. 
