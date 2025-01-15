@@ -18,8 +18,8 @@ Con esta herramienta, puedes predecir el rendimiento de tu procesador basándote
 
 ### ¿Cómo funciona?
 1. **Ingresa los detalles de tu procesador**: Completa la información de los componentes de tu procesador.
-2. **Predicción del rendimiento**: Nuestra aplicación utilizará los datos ingresados para predecir el rendimiento de tu procesador en benchmarks típicos.
-3. **Resultados y recomendaciones**: Obtén una estimación sobre el rendimiento de tu procesador y sugerencias de mejora, si es necesario.
+2. **Predicción del rendimiento**: Nuestra aplicación utilizará los datos ingresados para predecir el rendimiento de tu procesador en benchmarks típicos mediante un modelo de regresion lineal.
+3. **Resultados y recomendaciones**: Obtén una estimación sobre el rendimiento de tu procesador.
 
 **¡Comienza ahora!** Ingresa los detalles de tu procesador para ver cómo se desempeñaría en pruebas de benchmark.
          
